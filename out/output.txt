@@ -1,0 +1,43 @@
+
+Parsing intput file '../testfiles/input.txt'. Please wait...
+
+	*************************************************
+	*		Restuarant is now open.		*
+	*		Number of cooks : 1			*
+	*		Number of diners: 2			*
+	*		Number of tables: 2			*
+	*************************************************
+
+00:01 - Diner 1 arrives.
+00:01 - Diner 1 is seated at table 1.
+00:01 - Cook 1 processes Diner 1's order.
+00:01 - Cook 1 uses the Burger machine.
+00:02 - Diner 2 arrives.
+00:02 - Diner 2 is seated at table 2.
+00:06 - Cook 1 uses the Fries machine.
+00:09 - Cook 1 uses the Burger machine.
+00:14 - Cook 1 uses the Fries machine.
+00:17 - Cook 1 uses the Burger machine.
+00:22 - Cook 1 uses the Fries machine.
+00:25 - Cook 1 uses the Burger machine.
+00:30 - Cook 1 uses the Fries machine.
+00:33 - Cook 1 uses the Burger machine.
+00:38 - Cook 1 uses the Fries machine.
+00:41 - Cook 1 uses the Burger machine.
+00:46 - Cook 1 uses the Burger machine.
+00:51 - Cook 1 uses the Burger machine.
+00:56 - Cook 1 uses the Burger machine.
+01:01 - Cook 1 uses the Burger machine.
+01:06 - Order servered to Diner 1 by Cook 1 on table 1.
+01:06 - Diner 1 starts eating.
+01:06 - Cook 1 processes Diner 2's order.
+01:06 - Cook 1 uses the Burger machine.
+01:11 - Cook 1 uses the Fries machine.
+01:14 - Cook 1 uses the Soda machine.
+01:15 - Cook 1 uses the Burger machine.
+01:20 - Cook 1 uses the Burger machine.
+01:25 - Cook 1 uses the Burger machine.
+01:30 - Cook 1 uses the Burger machine.
+01:35 - Cook 1 uses the Burger machine.
+01:36 - Diner 1 finishes eating and leaves the restaurant.
+01:36 - Diner 2 starts eating.

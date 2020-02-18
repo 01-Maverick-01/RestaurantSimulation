@@ -1,0 +1,13 @@
+#!/bin/bash
+
+MYDIR=`dirname $BASH_SOURCE`
+
+pushd "$MYDIR" > /dev/null
+if [[ $(make --dry-run -s) ]]
+then
+  echo make thinks the code is out of date and needs to be re-built
+  exit
+fi
+popd > /dev/null
+
+java main.Restaurant $*
