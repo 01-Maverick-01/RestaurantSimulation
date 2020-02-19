@@ -1,6 +1,6 @@
 /****************************************************************************************/
 /* CSE 6431 - Lab (Restaurant Simulation)                                               */
-/*      It represents the different states of a cook.                                   */
+/*      It represents the different states of a diner.                                  */
 /*                                                                                      */
 /* Name: Ishan Deep                                                                     */
 /* Lname.#: deep.24                                                                     */

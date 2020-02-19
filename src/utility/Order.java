@@ -1,3 +1,12 @@
+/****************************************************************************************/
+/* CSE 6431 - Lab (Restaurant Simulation)                                               */
+/*      It represents an order placed by a diner.                                       */
+/*                                                                                      */
+/* Name: Ishan Deep                                                                     */
+/* Lname.#: deep.24                                                                     */
+/*                                                                                      */
+/****************************************************************************************/
+
 package utility;
 
 public class Order {

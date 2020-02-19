@@ -1,3 +1,13 @@
+/****************************************************************************************/
+/* CSE 6431 - Lab (Restaurant Simulation)                                               */
+/*      It class is responsible for writing the output to a file and on the console. It */
+/*      is also responsible for writing error logs. This is a singleton.                */
+/*                                                                                      */
+/* Name: Ishan Deep                                                                     */
+/* Lname.#: deep.24                                                                     */
+/*                                                                                      */
+/****************************************************************************************/
+
 package utility;
 
 import java.io.*;
@@ -5,8 +15,8 @@ import java.io.*;
 public class OutputHandler {
 
     private static OutputHandler instance;
-    private static BufferedWriter outputFileWriter;
-    private static BufferedWriter errLogWriter;
+    private static BufferedWriter outputFileWriter;                     // out file handler
+    private static BufferedWriter errLogWriter;                         // error log file handler
     
     private OutputHandler() {
         instance = this;
