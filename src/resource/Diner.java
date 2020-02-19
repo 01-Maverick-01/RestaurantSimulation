@@ -70,6 +70,7 @@ public class Diner implements Runnable {
 
     @Override
     public void run() {
+        Thread.currentThread().setName("Diner-" + id);
         Restaurant restaurant = Restaurant.getInstance();
         while (restaurant.getClock().getTime() < arrivalTime) {
             synchronized(restaurant.getClock()) {

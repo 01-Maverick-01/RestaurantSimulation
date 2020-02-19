@@ -50,6 +50,7 @@ public class Cook implements Runnable {
 
     @Override
     public void run() {
+        Thread.currentThread().setName("Cook-"+id);
         while(Restaurant.getInstance().isDinerInWaitingForFood())
         {
             if (isFree())

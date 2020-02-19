@@ -22,31 +22,3 @@ Parsing intput file '../testfiles/input.txt'. Please wait...
 00:25 - Cook 1 uses the Burger machine.
 00:30 - Cook 1 uses the Fries machine.
 00:33 - Cook 1 uses the Burger machine.
-00:38 - Cook 1 uses the Fries machine.
-00:41 - Cook 1 uses the Burger machine.
-00:46 - Cook 1 uses the Burger machine.
-00:51 - Cook 1 uses the Burger machine.
-00:56 - Cook 1 uses the Burger machine.
-01:01 - Cook 1 uses the Burger machine.
-01:06 - Order servered to Diner 1 by Cook 1 on table 1.
-01:06 - Diner 1 starts eating.
-01:06 - Cook 1 processes Diner 2's order.
-01:06 - Cook 1 uses the Burger machine.
-01:11 - Cook 1 uses the Fries machine.
-01:14 - Cook 1 uses the Soda machine.
-01:15 - Cook 1 uses the Burger machine.
-01:20 - Cook 1 uses the Burger machine.
-01:25 - Cook 1 uses the Burger machine.
-01:30 - Cook 1 uses the Burger machine.
-01:35 - Cook 1 uses the Burger machine.
-01:36 - Diner 1 finishes eating and leaves the restaurant.
-01:36 - Diner 2 starts eating.
-01:40 - Cook 1 uses the Burger machine.
-01:45 - Cook 1 uses the Burger machine.
-01:50 - Cook 1 uses the Burger machine.
-01:55 - Cook 1 uses the Burger machine.
-02:00 - Order servered to Diner 2 by Cook 1 on table 2.
-02:00 - Diner 2 starts eating.
-02:01 - Diner 3 reservation declined as restaurant is closed.
-02:30 - Diner 2 finishes eating and leaves the restaurant.
-02:30 - The last diner leaves the restaurant.
