@@ -3,9 +3,9 @@ Parsing intput file '../testfiles/input.txt'. Please wait...
 
 	*************************************************
 	*		Restuarant is now open.		*
-	*		Number of cooks : 1			*
-	*		Number of diners: 2			*
-	*		Number of tables: 2			*
+	*		Number of cooks : 1		*
+	*		Number of diners: 2		*
+	*		Number of tables: 2		*
 	*************************************************
 
 00:01 - Diner 1 arrives.
@@ -41,3 +41,12 @@ Parsing intput file '../testfiles/input.txt'. Please wait...
 01:35 - Cook 1 uses the Burger machine.
 01:36 - Diner 1 finishes eating and leaves the restaurant.
 01:36 - Diner 2 starts eating.
+01:40 - Cook 1 uses the Burger machine.
+01:45 - Cook 1 uses the Burger machine.
+01:50 - Cook 1 uses the Burger machine.
+01:55 - Cook 1 uses the Burger machine.
+02:00 - Order servered to Diner 2 by Cook 1 on table 2.
+02:00 - Diner 2 starts eating.
+02:01 - Diner 3 reservation declined as restaurant is closed.
+02:30 - Diner 2 finishes eating and leaves the restaurant.
+02:30 - The last diner leaves the restaurant.

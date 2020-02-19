@@ -3,7 +3,7 @@ CSE 6431 Operating System - Lab
 Environment:
     OS: Ubuntu 18.04.3 LTS
     Java:
-        openjdk 11.0.6 2020-01-14
+        openjdk version "11.0.6" 2020-01-14
         OpenJDK Runtime Environment (build 11.0.6+10-post-Ubuntu-1ubuntu118.04.1)
         OpenJDK 64-Bit Server VM (build 11.0.6+10-post-Ubuntu-1ubuntu118.04.1, mixed mode, sharing)
     GNU Make (4.1)
@@ -27,8 +27,8 @@ Input
     If using Method 'b', you need to specify the input file path (relative/absolute).
 
 Output
-    Program will generate an output file under the 'out' folder (<SubmissionFolder>/out/output.txt).
-    Program will generate an error log under the 'out' folder(<SubmissionFolder>/out/error.txt).
+    Program will generate an output file under the 'out' folder (<SubmissionFolder>/out/<inputFileName>.out).
+    Program will generate an error log under the 'out' folder(<SubmissionFolder>/out/<inputFileName>.err).
     Program will also display the results on the console.
 
 Folder Hierarchy
@@ -43,4 +43,3 @@ Folder Hierarchy
 
 
 
-        

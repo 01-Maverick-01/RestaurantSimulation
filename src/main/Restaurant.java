@@ -21,6 +21,7 @@ public class Restaurant {
     public static final String BURGER_MACHINE = "BurgerMachine";
     public static final String FRIES_MACHINE = "FriesMachine";
     public static final String SODA_MACHINE = "SodaMachine";
+    public static String inputFile;
     
     static final String DEFAULT_INPUT = "../testfiles/input.txt";
     static final int CLOSING_TIME = 120;
@@ -170,8 +171,8 @@ public class Restaurant {
     // This is the main entry point
     public static void main(final String[] args) {
         final Restaurant restaurant = Restaurant.getInstance();
-        final String inputFilePath = args.length > 0 ? args[0] : DEFAULT_INPUT;
-        restaurant.initialize(inputFilePath);
+        inputFile = args.length > 0 ? args[0] : DEFAULT_INPUT;
+        restaurant.initialize(inputFile);
         restaurant.open();
         while(restaurant.diners.isAnyDinerInRestaurant()) {
             restaurant.clock.incrementTime();

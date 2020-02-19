@@ -11,6 +11,7 @@
 package utility;
 
 import java.io.*;
+import main.Restaurant;
 
 public class OutputHandler {
 
@@ -20,8 +21,9 @@ public class OutputHandler {
     
     private OutputHandler() {
         instance = this;
-        File f1 = new File("../out/output.txt");
-        File f2 = new File("../out/error.txt");
+        String inputFileName = new File(Restaurant.inputFile).getName().replaceFirst("[.][^.]+$", "");
+        File f1 = new File("../out/" + inputFileName + ".out");
+        File f2 = new File("../out/" + inputFileName + ".err");
         if(f1.exists())
             f1.delete();
         
