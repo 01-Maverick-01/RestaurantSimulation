@@ -1,6 +1,6 @@
-CSE 6431 Operating System - Lab
+# CSE 6431 Operating System - Lab
 
-Environment:
+### Environment:
     OS: Ubuntu 18.04.3 LTS
     Java:
         openjdk version "11.0.6" 2020-01-14
@@ -8,11 +8,11 @@ Environment:
         OpenJDK 64-Bit Server VM (build 11.0.6+10-post-Ubuntu-1ubuntu118.04.1, mixed mode, sharing)
     GNU Make (4.1)
 
-Build Instruction
+### Build Instruction
     1. Launch terminal in the '<SubmissionFolder>/src' folder.
     2. Execute cmd: make
 
-Execution
+### Execution
     1. Launch terminal in the src folder.
     2. Execute on of the below commands:
         a) ./Restaurant
@@ -21,17 +21,17 @@ Execution
                 if you use this cmdLine, then you need to specify the input file path (relative/absolute). 
                 If using relative path, the specify the path relative to '<SubmissionFolder>/src' folder.
 
-Input
+### Input
     You can specify input to the program using one of the two methods specified under 'Execution'. 
     If using Method 'a', default input file (/testfiles/input.txt) will be used.
     If using Method 'b', you need to specify the input file path (relative/absolute).
 
-Output
-    Program will generate an output file under the 'out' folder (<SubmissionFolder>/out/<inputFileName>.out).
-    Program will generate an error log under the 'out' folder(<SubmissionFolder>/out/<inputFileName>.err).
-    Program will also display the results on the console.
+### Output
+    1. Output file will be saved under the 'out' folder (<SubmissionFolder>/out/<inputFileName>.out).
+    2. Error log will be saved under the 'out' folder(<SubmissionFolder>/out/<inputFileName>.err).
+    3. Results will be displayed on the console.
 
-Folder Hierarchy
+### Folder Hierarchy
     <SubmissionFolder>                  Top level folder carmen zip submission
         <src>                           Folder containing a source code
             <main>
